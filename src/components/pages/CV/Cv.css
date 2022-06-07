@@ -1,0 +1,11 @@
+iframe{
+    display: block;
+    width: 816px;
+    aspect-ratio: 8.5/11;
+    margin: 0 auto;
+}
+@media screen and (max-width:816px) {
+    iframe{
+        width: 100%;
+    }
+}

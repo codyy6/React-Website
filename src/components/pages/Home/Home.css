@@ -1,0 +1,55 @@
+.home{
+    padding: 20px;
+}
+.profile{
+    position: relative;
+    margin: auto;
+    width:90%;
+    background-color: white;
+    padding:20px;
+    border-radius: 10px;
+    display: flex;
+}
+.section{
+    padding:20px;
+    height: 500px;
+}
+.section img{
+    height: 100%;
+    display: flex;
+    border-radius: 20px;
+    margin: auto;
+}
+
+*{
+    color: black;
+}
+.text{
+    position: relative;
+    text-align: center;
+    font-size: larger;
+}
+
+.text h1{
+    text-align: center;
+}
+.text img{
+    height:60px;
+    width:60px;
+    border-radius: 5px;
+    margin-top: 5rem;
+}
+.text a {
+    position: relative;
+    margin: 2.5rem;
+}
+
+
+@media screen and (max-width:1000px){
+    .profile{
+        display: block;
+    }
+    .section{
+        height: 400px;
+    }
+}
