@@ -14,12 +14,12 @@ function App() {
       <Navbar />
     <Router>
       <Routes>
-        <Route path='/' element ={<Navigate replace to="/home" />} />
-        <Route path='/home' element ={<Home />}/>
-        <Route path='/about' element ={<About />}/>
-        <Route path='/cv+resume' element ={<CV />}/>
-        <Route path='/transcripts' element ={<Transcripts />}/>
-        <Route path='/workingexperiences' element ={<WE />}/>
+        <Route path='/web/' element ={<Navigate replace to="/home" />} />
+        <Route path='/web/home' element ={<Home />}/>
+        <Route path='/web/about' element ={<About />}/>
+        <Route path='/web/cv' element ={<CV />}/>
+        <Route path='/web/transcripts' element ={<Transcripts />}/>
+        <Route path='/web/workingexperiences' element ={<WE />}/>
       </Routes>
     </Router>
       <Footer/>

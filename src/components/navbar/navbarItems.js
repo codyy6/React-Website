@@ -11,7 +11,7 @@ export const Items = [
     },
     {
         title: 'CV/Resume',
-        url:'/web/CV',
+        url:'/web/cv',
         cName:'nav-links'
     },
     {
