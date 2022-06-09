@@ -1,27 +1,27 @@
 export const Items = [
     {
         title: 'Home',
-        url:'home',
+        url:'/web/home',
         cName:'nav-links'
     },
     {
         title: 'About',
-        url:'about',
+        url:'/web/about',
         cName:'nav-links'
     },
     {
         title: 'CV/Resume',
-        url:'cv+resume',
+        url:'/web/CV',
         cName:'nav-links'
     },
     {
         title: 'Transcripts',
-        url:'transcripts',
+        url:'/web/transcripts',
         cName:'nav-links'
     },
     {
         title: 'Working Experiences',
-        url:'workingexperiences',
+        url:'/web/workingexperiences',
         cName:'nav-links'
     }
 ]
