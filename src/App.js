@@ -14,7 +14,7 @@ function App() {
     <Router>
       <Navbar />
       <Routes>
-        <Route path='/web/' element ={<Navigate replace to="/home" />} />
+        <Route path='/' element ={<Navigate replace to="/web/home" />} />
         <Route path='/web/home' element ={<Home />}/>
         <Route path='/web/about' element ={<About />}/>
         <Route path='/web/cv' element ={<CV />}/>
