@@ -2,7 +2,7 @@ import React, {useState} from 'react'
 import { Items } from './navbarItems'
 import './navbar.css'
 import { AiOutlineMenu, AiFillCaretDown } from 'react-icons/ai';
-
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   const [status, setStatus]=useState(false);
@@ -20,9 +20,12 @@ const Navbar = () => {
             {Items.map((item,index)=>{
               return(
                 <li key = {index}>
-                  <a className = {item.cName} href={item.url}>
+                  <Link className={item.cName} to={item.url}>
                     {item.title}
-                  </a>
+                  </Link>
+                  {/* <a className = {item.cName} href={item.url}>
+                    {item.title}
+                  </a> */}
                 </li>
               )
             })}

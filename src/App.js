@@ -11,8 +11,8 @@ import Footer from './components/Footer/Footer'
 function App() {
   return (
     <div>
-      <Navbar />
     <Router>
+      <Navbar />
       <Routes>
         <Route path='/web/' element ={<Navigate replace to="/home" />} />
         <Route path='/web/home' element ={<Home />}/>
@@ -21,8 +21,9 @@ function App() {
         <Route path='/web/transcripts' element ={<Transcripts />}/>
         <Route path='/web/workingexperiences' element ={<WE />}/>
       </Routes>
-    </Router>
       <Footer/>
+    </Router>
+
     </div>
   );
 }
