@@ -15,6 +15,7 @@ function App() {
       <Navbar />
       <Routes>
         <Route path='/' element ={<Navigate replace to="/web/home" />} />
+        <Route path='/web' element ={<Navigate replace to="/web/home" />} />
         <Route path='/web/home' element ={<Home />}/>
         <Route path='/web/about' element ={<About />}/>
         <Route path='/web/cv' element ={<CV />}/>
