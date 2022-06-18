@@ -7,6 +7,7 @@ import About from "./components/pages/About/About.js"
 import CV from "./components/pages/CV/Cv.js"
 import Transcripts from "./components/pages/Transcript/Transcripts.js"
 import WE from "./components/pages/WE/WorkingExperiences.js"
+import Skills from "./components/pages/Skills/Skills.js"
 import Footer from './components/Footer/Footer'
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Route path='/cv' element ={<CV />}/>
         <Route path='/transcripts' element ={<Transcripts />}/>
         <Route path='/workingexperiences' element ={<WE />}/>
+        <Route path='/skills' element ={<Skills />}/>
       </Routes>
       <Footer/>
     </Router>

@@ -1,8 +1,8 @@
 import React from 'react'
-import "./AboutCard"
 import detail from "./AboutInfo"
 import { Container , Card } from 'react-bootstrap'
 import Body from "./AboutCard"
+import "./About.css"
 const about = () => {
     document.title='About'
   return (
