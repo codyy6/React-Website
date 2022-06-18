@@ -4,7 +4,7 @@ import "./WE.css"
 import detail from "./WEInfo"
 import Body from "./WECard"
 const WorkingExperiences = () => {
-    document.title="Working Experiences"
+    document.title="Cody Liew's Working Experiences"
   return (
     <div className='whole'>
       <Container className='card'>

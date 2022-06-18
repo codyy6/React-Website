@@ -4,6 +4,7 @@ import details from "./SkillsInfo.js"
 import Body from "./SkillsCard"
 import "./Skills.css"
 const Skills = () => {
+    document.title="Cody Liew's Skills"
   return (
     <div className='whole'>
         <Container className='card1'>

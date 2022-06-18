@@ -1,7 +1,7 @@
 import React from 'react'
 import './Home.css'
 const home = () => {
-    document.title='Home'
+    document.title='React Website Done By Cody Liew'
   return (
     <div className='whole'>
       <div className='profile'>

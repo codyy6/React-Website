@@ -4,7 +4,7 @@ import { Container , Card } from 'react-bootstrap'
 import Body from "./AboutCard"
 import "./About.css"
 const about = () => {
-    document.title='About'
+    document.title='About Cody Liew'
   return (
     <div className='whole'>
       <Container className='card'>
