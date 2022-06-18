@@ -23,9 +23,6 @@ const Navbar = () => {
                   <Link className={item.cName} to={item.url}>
                     {item.title}
                   </Link>
-                  {/* <a className = {item.cName} href={item.url}>
-                    {item.title}
-                  </a> */}
                 </li>
               )
             })}
