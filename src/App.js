@@ -14,8 +14,8 @@ function App() {
     <Router>
       <Navbar />
       <Routes>
-        <Route path='/' element ={<Navigate replace to="/home" />} />
-        <Route path='/home' element ={<Home />}/>
+        <Route path='/' element ={<Navigate replace to="/React-Website" />} />
+        <Route path='/React-Website' element ={<Home />}/>
         <Route path='/about' element ={<About />}/>
         <Route path='/cv' element ={<CV />}/>
         <Route path='/transcripts' element ={<Transcripts />}/>
