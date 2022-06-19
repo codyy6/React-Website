@@ -12,7 +12,9 @@ const home = () => {
 
         <div className='text'>
           <h1><u>Liew Chern Jin</u></h1>
-          <p>Previously, I was the vice president of Quarter Master (QM) in Catholic High School, Petaling Jaya. Have various experience in leading group out for duties such as different sport events and organising all of the sports events held by the school. Currently a Diploma in Data Informatics student and am taking my internship at Sales Connections located at Subang Square, Subang Jaya. I am very passionate about coding and love to discover more opportunities within the coding space. Plan to further study in Intelligent System (AI) at APU for my degree and also self-learning more about blockchain technology and web3. Have a dream to create a better world through the usage of technology such as easing peoples’ life and solving issues that is widely recognise such as data privacy.</p>
+          <p>My passion for Coding and my undaunted spirit sprouts my dream to create a better world through technology. Currently a student pursuing Diploma in Data Informatics, I intend to move on and pursue a Degree in the field of Intelligent System, also known as AI in the society. In tandem with my undergraduate studies, my interest in blockchain technology and web3 has sparked my curiosity and motivated me to self-learn.</p> 
+          <br></br>
+          <p>Presently, I am also an intern of Sales Connections located at Subang Square where I continue learn and practice my soft-skills while simultaneously gaining valuable experiences. Previously, I was appointed as the Vice President of the Quarter Master in my high school, CHS PJ. Thus, I have picked up on various skills such as leadership and problem solving abilities. These expertise will definitely come into play in my current and future field of career.</p>
           
           <a href="https://github.com/codyy6" target={"_blank"} >
             <img src="https://drive.google.com/uc?export=view&id=1qNeJ_ZQ7sXTGjzQ7iFZAH5cI3s5_EfA-" alt="Github"/>

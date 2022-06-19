@@ -2,7 +2,7 @@
     padding: 3%;
 }
 .profile{
-    position: relative;
+    align-items: center;
     margin: auto;
     width:90%;
     background-color: white;
@@ -12,12 +12,13 @@
 }
 .section{
     padding:20px;
-    height: 500px;
+    height: 440px;
 }
 .section img{
-    height: 100%;
+    height: 400px;
     display: flex;
     border-radius: 20px;
+    vertical-align: middle;
     margin: auto;
 }
 
@@ -28,16 +29,20 @@
     position: relative;
     text-align: center;
     font-size: larger;
+    padding: 20px;
 }
 
 .text h1{
     text-align: center;
 }
+.text p{
+    text-align: justify;
+}
 .text img{
     height:60px;
     width:60px;
     border-radius: 5px;
-    margin-top: 5rem;
+    margin-top: 2.5rem;
 }
 .text a {
     position: relative;
@@ -50,6 +55,11 @@
         display: block;
     }
     .section{
-        height: 400px;
+        height: auto;
+    }
+    .section img{
+        width: 80%;
+        max-width: 300px;
+        height: auto;
     }
 }

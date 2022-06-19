@@ -11,7 +11,7 @@ const Skills = () => {
             {details.map((item,index)=>{
             return (
             <Card key = {index} className="category">
-                <h1>{item.title}</h1>
+                <h1><u>{item.title}</u></h1>
                 <Card.Body>
                     <Body data={item.skills}/>
                 </Card.Body>

@@ -14,6 +14,8 @@
 }
 
 .category{
+    background-color: #d5d5c0;
     display: block;
     margin: 0;
+    border-style: solid;
 }
