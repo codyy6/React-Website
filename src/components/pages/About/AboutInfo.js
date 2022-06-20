@@ -1,6 +1,6 @@
 const details=[{
     //Uni data
-    img:'',
+    img:'https://drive.google.com/uc?export=view&id=1WJChCR8KQNBMjBYgBH2DWy5nTyLwLgQh',
     alt:'Asia Pacific University',
     h2:"Asia Pacific University of Technology & Innovation, Bukit Jalil",
     details:[<br></br>,
@@ -15,7 +15,7 @@ const details=[{
 ]
 },{
     //High School Data
-    img:"https://drive.google.com/uc?export=view&id=1TrwNPwki0jw0P_EyF-r-1YYsV9I92XRE",
+    img:"https://drive.google.com/uc?export=view&id=1gjk6f4bLaxYRFGXZTozh2_5x4CP3NCp1",
     alt:'Catholic High School',
     h2:"Catholic High School, Petaling Jaya",
     details:[<br></br>,
