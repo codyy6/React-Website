@@ -3,6 +3,9 @@ iframe{
     width: 816px;
     aspect-ratio: 8.5/11;
 }
+.pdf{
+    min-height: calc(100vh - 80px - 100px);
+}
 @media screen and (max-width:816px) {
     iframe{
         width: 100%;

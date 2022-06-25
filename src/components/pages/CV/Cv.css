@@ -4,6 +4,9 @@ iframe{
     aspect-ratio: 8.5/11;
     margin: 0 auto;
 }
+.cv{
+    min-height: calc(100vh - 100px - 80px);
+}
 @media screen and (max-width:816px) {
     iframe{
         width: 100%;
