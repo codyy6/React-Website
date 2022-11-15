@@ -4,7 +4,7 @@ const Cv = () => {
     document.title="Cody Liew's CV"
   return (
     <div className='cv'>
-      <iframe src="https://drive.google.com/file/d/1zj_s5KYHhbSQJzsx5j7u21BqzmEc28Ti/preview" allow="autoplay"/>
+      <iframe src="https://drive.google.com/file/d/1GQ8AXASviODbzkf0mgiQuPdNtcj4OMRK/preview" allow="autoplay"/>
     </div>
   )
 }
