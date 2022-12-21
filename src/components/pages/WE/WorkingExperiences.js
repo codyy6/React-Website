@@ -10,8 +10,8 @@ const WorkingExperiences = () => {
       <Container className='card'>
         {detail.map((item,index)=>{
           return (
-          <Card className='something' key = {index}>
-            <img src={item.img} alt={item.alt}/>
+          <Card key = {index}>
+            <img src={item.img} alt={item.alt} className ="WEimg"/>
             <Card.Title><h2>{item.h2}</h2></Card.Title>
             <Card.Body>
               <h3><u>{item.h3}</u></h3>

@@ -9,6 +9,7 @@ import Transcripts from "./components/pages/Transcript/Transcripts.js"
 import WE from "./components/pages/WE/WorkingExperiences.js"
 import Skills from "./components/pages/Skills/Skills.js"
 import Footer from './components/Footer/Footer'
+import Researches from './components/pages/Research/Research.js'
 function App() {
   return (
     <div>
@@ -22,6 +23,7 @@ function App() {
         <Route path='/transcripts' element ={<Transcripts />}/>
         <Route path='/workingexperiences' element ={<WE />}/>
         <Route path='/skills' element ={<Skills />}/>
+        <Route path='/researches' element ={<Researches/>}/>
       </Routes>
       <Footer/>
     </Router>

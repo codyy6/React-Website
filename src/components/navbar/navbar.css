@@ -19,12 +19,12 @@
 }
 
 .nav-menu-on, .nav-menu-off{
-    display:grid;
+    display:inline-flex;
     grid-template-columns: repeat(6,auto);
     list-style: none;
     text-align: center;
     width: 100%;
-    justify-content: start;
+    justify-content: center;
     
 }
 

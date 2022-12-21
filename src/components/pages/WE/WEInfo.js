@@ -1,13 +1,13 @@
 const details=[{
     //Sales Connections
-    img:'',
+    img:'https://drive.google.com/uc?export=view&id=1tm7CVLCOR0PShvfc8BP1LUoIvj9gORQy',
     alt:"Sales Connections",
     h2:"Sales Connections, SS15, Subang Square",
     h3:"Business Management + Software Testing",
     h4:"May 2022 - August 2022 (3 Months)",
     details:[
-        'Help contact with client and update on status',
-        "Contact with client and provide example of IT services our company provides",
+        'Improved the SOP on some business processes',
+        "Increase the engagement between the customer and company",
         "Test features within the system and detect for any bugs or improvements",
         "Help setup for clients' account for clients' usage"
     ]

@@ -1,0 +1,31 @@
+.researchWhole{
+    min-height: calc(100vh - 80px - 100px);
+    padding:3%;
+}
+
+.researchBody{
+    width:90%;
+    height: auto;
+    background: white;
+    padding: 3%;
+    margin: auto;
+    border-radius: 10px;
+    display: grid;
+}
+
+.researchCard{
+    width: auto;
+    position:relative;
+    background: rgb(126, 121, 121);
+    margin: 1rem;
+}
+
+.researchImage{
+    border-radius: 50%;
+    height: 50px;
+}
+
+.researchLink{
+    margin-left: 3rem;
+    font-size: 1.2rem;
+}

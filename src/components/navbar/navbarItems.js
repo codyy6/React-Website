@@ -22,5 +22,8 @@ export const Items = [
     ,{
         title: 'Skills',
         url:'/skills'
+    },{
+        title: "Researches",
+        url:'/researches'
     }
 ]

@@ -10,7 +10,7 @@
     border-radius: 10px;
     list-style: none;
 }
-.card img{
+.WEimg{
     display: block;
     width: 80%;
     height: auto;
@@ -31,10 +31,4 @@
 }
 .card li{
     list-style: circle;
-}
-@media screen and (max-width:1000px) {
-    .card img{
-        width: 80%
-    }
-    
 }

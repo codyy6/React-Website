@@ -11,7 +11,7 @@ const Navbar = () => {
       <div>
         <nav className="Navbar">
           <Link to="/React-Website" className='profile-img'>
-            <img src='https://media-exp1.licdn.com/dms/image/C5603AQEaqBuGKFhlPw/profile-displayphoto-shrink_100_100/0/1637503942230?e=1658966400&v=beta&t=WXcCJLMU214BmtMxvWPd-zlTT5wioHQw1CWOGPHgxzk' alt="Cody Liew Chern Jin's Profile Picture" className="navbar-pic" />
+            <img src='https://media.licdn.com/dms/image/C5603AQEaqBuGKFhlPw/profile-displayphoto-shrink_400_400/0/1637503942230?e=1677110400&v=beta&t=Y3MeCC74wJla2d0q5jtwoFpWFsWGC-WhX5absqNLvKI' alt="Cody Liew Chern Jin's Profile Picture" className="navbar-pic" />
           </Link> 
           <div onClick={() => setStatus(!status)} className='menu-logo'>
             <i style={{position:'relative'}}>{ status ? <AiFillCaretDown/> : <AiOutlineMenu/>}</i>

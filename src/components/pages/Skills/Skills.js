@@ -9,13 +9,13 @@ const Skills = () => {
     <div className='whole'>
         <Container className='card1'>
             {details.map((item,index)=>{
-            return (
-            <Card key = {index} className="category">
-                <h1><u>{item.title}</u></h1>
-                <Card.Body>
-                    <Body data={item.skills}/>
-                </Card.Body>
-            </Card>)
+                return (
+                <Card key = {index} className="category">
+                    <h1><u>{item.title}</u></h1>
+                    <Card.Body>
+                        <Body data={item.skills}/>
+                    </Card.Body>
+                </Card>)
             })}
         </Container>
     </div>

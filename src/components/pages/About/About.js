@@ -11,7 +11,7 @@ const about = () => {
         {detail.map((item,index)=>{
           return (
           <Card className='something' key = {index}>
-            <img src={item.img} alt={item.alt}/>
+            <img src={item.img} alt={item.alt} className = "aboutimg"/>
             <Card.Title><h2>{item.h2}</h2></Card.Title>
             <Card.Body>
               <Body data={item.details}/>
